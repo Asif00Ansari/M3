@@ -80,7 +80,7 @@ ALTER DATABASE [LogisticSystem] SET QUERY_STORE = OFF
 GO
 USE [LogisticSystem]
 GO
-/****** Object:  Table [dbo].[tbl_AssignToDriver]    Script Date: 25/11/2023 10:03:45 pm ******/
+/****** Object:  Table [dbo].[tbl_AssignToDriver]    Script Date: 01/04/2024 07:09:20 pm ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -99,7 +99,7 @@ CREATE TABLE [dbo].[tbl_AssignToDriver](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[tbl_Login]    Script Date: 25/11/2023 10:03:45 pm ******/
+/****** Object:  Table [dbo].[tbl_Login]    Script Date: 01/04/2024 11:40:30 am ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -117,7 +117,7 @@ CREATE TABLE [dbo].[tbl_Login](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[tbl_ParcelStatus]    Script Date: 25/11/2023 10:03:45 pm ******/
+/****** Object:  Table [dbo].[tbl_ParcelStatus]    Script Date: 01/04/2024 01:19:20 am ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -132,7 +132,7 @@ CREATE TABLE [dbo].[tbl_ParcelStatus](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[tbl_Route]    Script Date: 25/11/2023 10:03:45 pm ******/
+/****** Object:  Table [dbo].[tbl_Route]    Script Date: 01/04/2024 03:50:40: am ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -148,7 +148,7 @@ CREATE TABLE [dbo].[tbl_Route](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[tbl_SecurityTeam]    Script Date: 25/11/2023 10:03:45 pm ******/
+/****** Object:  Table [dbo].[tbl_SecurityTeam]    Script Date: 03/04/2024 11:04:20 pm ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -164,7 +164,7 @@ CREATE TABLE [dbo].[tbl_SecurityTeam](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[tbl_Vehicle]    Script Date: 25/11/2023 10:03:45 pm ******/
+/****** Object:  Table [dbo].[tbl_Vehicle]    Script Date: 01/04/2024 11:04:20 pm ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
